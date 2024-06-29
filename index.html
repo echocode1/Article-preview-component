@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>echo-code | Article preview component</title>
+
+</head>
+<body>
+  <main class="article-preview__container">
+    <div id="cover-image">
+      <img src="images/drawers.jpg" alt="cover-photo">
+    </div>
+    <div class="section2">
+      <div class="text__area">
+        <h3 id="text__description">
+          Shift the overall look and feel by adding these wonderful 
+          touches to furniture in your home
+        </h3>
+        <p id="text">
+          Ever been in a room and felt like something was missing? Perhaps 
+          it felt slightly bare and uninviting. I’ve got some simple tips 
+          to help you make any room feel complete.
+        </p>
+      </div>
+      <footer class="footer">
+        <div class="mobile__display">
+          <div class="profile">
+            <img id="profile-pics" src="images/avatar-michelle.jpg" alt="michelles-pics">
+            <div class="profile-text">
+              <p id="profile-name__bold">Michelle Appleton</p>
+              <p id="profile-date">28 jun 2020</p>
+            </div>
+          </div>
+          <button class="share-button" onclick="shareBtn()">
+            <img id="click" class="share-icon" src="images/icon-share.svg" alt="share-icon">
+          </button>
+        </div>
+        <div class="mobile-active__display">
+          <div class="share-options">
+            <p id="share">SHARE</p>
+            <div class="share-icons">
+              <i class="fa-brands fa-square-facebook"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-pinterest"></i>
+            </div>
+          </div>
+          <button class="share-button" onclick="shareBtn()">
+            <img id="clicks" class="share-icon" src="images/icon-share.svg" alt="share-icon">
+          </button>
+          <div class="triangular-pointer">▼</div>
+        </div>
+      </footer>
+    </div>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
